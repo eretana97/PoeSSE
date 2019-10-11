@@ -68,7 +68,7 @@ public class PanelAdmin extends javax.swing.JPanel {
         btn_horariocoor1.setName("escuelas"); // NOI18N
         btn_horariocoor1.setOpaque(true);
 
-        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, btn_horariocoor2, org.jdesktop.beansbinding.ELProperty.create("45"), btn_horariocoor1, org.jdesktop.beansbinding.BeanProperty.create("iconTextGap"));
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, btn_horariocoor1, org.jdesktop.beansbinding.ELProperty.create("45"), btn_horariocoor1, org.jdesktop.beansbinding.BeanProperty.create("iconTextGap"));
         bindingGroup.addBinding(binding);
 
         btn_horariocoor1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -89,7 +89,7 @@ public class PanelAdmin extends javax.swing.JPanel {
         btn_horariocoor2.setName("carreras"); // NOI18N
         btn_horariocoor2.setOpaque(true);
 
-        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, btn_horariocoor3, org.jdesktop.beansbinding.ELProperty.create("45"), btn_horariocoor2, org.jdesktop.beansbinding.BeanProperty.create("iconTextGap"));
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, btn_horariocoor2, org.jdesktop.beansbinding.ELProperty.create("45"), btn_horariocoor2, org.jdesktop.beansbinding.BeanProperty.create("iconTextGap"));
         bindingGroup.addBinding(binding);
 
         btn_horariocoor2.addMouseListener(new java.awt.event.MouseAdapter() {

@@ -120,7 +120,7 @@
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="escuelas"/>
       </AccessibilityProperties>
       <BindingProperties>
-        <BindingProperty name="iconTextGap" source="btn_horariocoor2" sourcePath="45" target="btn_horariocoor1" targetPath="iconTextGap" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="iconTextGap" source="btn_horariocoor1" sourcePath="45" target="btn_horariocoor1" targetPath="iconTextGap" updateStrategy="0" immediately="false"/>
       </BindingProperties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_horariocoor1MouseClicked"/>
@@ -157,7 +157,7 @@
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
       <BindingProperties>
-        <BindingProperty name="iconTextGap" source="btn_horariocoor3" sourcePath="45" target="btn_horariocoor2" targetPath="iconTextGap" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="iconTextGap" source="btn_horariocoor2" sourcePath="45" target="btn_horariocoor2" targetPath="iconTextGap" updateStrategy="0" immediately="false"/>
       </BindingProperties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_horariocoor2MouseClicked"/>
