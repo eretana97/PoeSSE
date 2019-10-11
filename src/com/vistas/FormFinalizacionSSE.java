@@ -30,19 +30,19 @@ public class FormFinalizacionSSE extends javax.swing.JInternalFrame {
         jLabel2 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        jComboBox1 = new javax.swing.JComboBox<String>();
         jLabel4 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        jComboBox2 = new javax.swing.JComboBox<String>();
         jLabel6 = new javax.swing.JLabel();
-        jComboBox3 = new javax.swing.JComboBox<>();
+        jComboBox3 = new javax.swing.JComboBox<String>();
         jLabel7 = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jFormattedTextField1 = new javax.swing.JFormattedTextField();
         jLabel9 = new javax.swing.JLabel();
-        jComboBox4 = new javax.swing.JComboBox<>();
+        jComboBox4 = new javax.swing.JComboBox<String>();
         jLabel10 = new javax.swing.JLabel();
         jSpinner1 = new javax.swing.JSpinner();
         jLabel11 = new javax.swing.JLabel();
@@ -66,7 +66,7 @@ public class FormFinalizacionSSE extends javax.swing.JInternalFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setClosable(true);
-        setTitle("Finalizacion de SSE");
+        setTitle("Finalización de SSE");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setText("Nombre:");
@@ -85,42 +85,42 @@ public class FormFinalizacionSSE extends javax.swing.JInternalFrame {
         jLabel5.setText("Escuela:");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 160, -1, -1));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 180, 110, -1));
 
         jLabel6.setText("Carrera:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, -1, -1));
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 180, 160, -1));
 
-        jLabel7.setText("Correo electronico:");
+        jLabel7.setText("Correo electrónico:");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, -1, -1));
         getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 310, -1));
 
-        jLabel8.setText("Telefono:");
+        jLabel8.setText("Teléfono:");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, -1, -1));
         getContentPane().add(jFormattedTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, 160, -1));
 
         jLabel9.setText("Jornada:");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
 
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 170, -1));
 
         jLabel10.setText("Año de estudio:");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, -1, -1));
         getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 110, -1));
 
-        jLabel11.setText("Institucion:");
+        jLabel11.setText("Institución:");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, -1, -1));
         getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 310, -1));
 
-        jLabel12.setText("Telefono:");
+        jLabel12.setText("Teléfono:");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 210, -1, -1));
         getContentPane().add(jFormattedTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 230, 160, -1));
 
-        jLabel13.setText("Direccion de Institucion:");
+        jLabel13.setText("Dirección de institución:");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         jTextArea1.setColumns(20);

@@ -28,7 +28,7 @@ public class FormHorarioCoor extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        jComboBox1 = new javax.swing.JComboBox<String>();
         jLabel3 = new javax.swing.JLabel();
         jSpinner1 = new javax.swing.JSpinner();
         jLabel4 = new javax.swing.JLabel();
@@ -41,14 +41,14 @@ public class FormHorarioCoor extends javax.swing.JInternalFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setClosable(true);
-        setTitle("Mis Horarios de Atencion");
+        setTitle("Mis Horarios de Atención");
         setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/graduation.png"))); // NOI18N
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setText("Dia de la semana:");
+        jLabel2.setText("Día:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 170, -1));
 
         jLabel3.setText("Hora entrada:");
@@ -95,7 +95,7 @@ public class FormHorarioCoor extends javax.swing.JInternalFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 570, 150));
 
-        jLabel5.setText("Ubicacion:");
+        jLabel5.setText("Ubicación:");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, -1, -1));
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 40, 360, -1));
 

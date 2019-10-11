@@ -28,7 +28,7 @@ public class FormHorarioSSE extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
-        combo_dia = new javax.swing.JComboBox<>();
+        combo_dia = new javax.swing.JComboBox<String>();
         jLabel3 = new javax.swing.JLabel();
         spin_inicio = new javax.swing.JSpinner();
         jLabel4 = new javax.swing.JLabel();
@@ -47,18 +47,18 @@ public class FormHorarioSSE extends javax.swing.JInternalFrame {
         setVisible(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setText("Dia de la semana:");
+        jLabel2.setText("Día:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         getContentPane().add(combo_dia, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 210, -1));
 
-        jLabel3.setText("Hora de Inicio:");
+        jLabel3.setText("Hora de inicio:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, -1, -1));
 
         spin_inicio.setModel(new javax.swing.SpinnerNumberModel(0, 0, 23, 1));
         getContentPane().add(spin_inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 110, -1));
 
-        jLabel4.setText("Hora de finalizacion:");
+        jLabel4.setText("Hora de finalización:");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 20, -1, -1));
 
         spin_final.setModel(new javax.swing.SpinnerNumberModel(0, 0, 23, 1));

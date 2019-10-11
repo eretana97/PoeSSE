@@ -42,7 +42,7 @@ public class FormLogin extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("INICIO DE SESION");
+        jLabel2.setText("INICIO DE SESIÓN");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 280, -1));
 
         jLabel3.setText("Usuario:");

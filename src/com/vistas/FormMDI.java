@@ -234,7 +234,7 @@ public class FormMDI extends javax.swing.JFrame {
 
         jMenu1.setText("Ventana");
 
-        mitem_logout.setText("Cerrar Sesion");
+        mitem_logout.setText("Cerrar sesión");
         mitem_logout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 mitem_logoutActionPerformed(evt);
@@ -242,7 +242,7 @@ public class FormMDI extends javax.swing.JFrame {
         });
         jMenu1.add(mitem_logout);
 
-        mitem_exit.setText("Cerrar Aplicacion");
+        mitem_exit.setText("Cerrar aplicación");
         mitem_exit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 mitem_exitActionPerformed(evt);

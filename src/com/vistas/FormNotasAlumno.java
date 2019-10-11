@@ -28,7 +28,7 @@ public class FormNotasAlumno extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
-        combo_ciclos = new javax.swing.JComboBox<>();
+        combo_ciclos = new javax.swing.JComboBox<String>();
         jScrollPane1 = new javax.swing.JScrollPane();
         tabla_notas = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
@@ -39,10 +39,10 @@ public class FormNotasAlumno extends javax.swing.JInternalFrame {
         setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/graduation.png"))); // NOI18N
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setText("Ver Notas del Ciclo:");
+        jLabel2.setText("Ciclo:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
-        combo_ciclos.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        combo_ciclos.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(combo_ciclos, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 280, -1));
 
         tabla_notas.setModel(new javax.swing.table.DefaultTableModel(

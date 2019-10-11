@@ -16,7 +16,7 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="mitem_logout">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Cerrar Sesion"/>
+                <Property name="text" type="java.lang.String" value="Cerrar sesi&#xf3;n"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mitem_logoutActionPerformed"/>
@@ -24,7 +24,7 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mitem_exit">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Cerrar Aplicacion"/>
+                <Property name="text" type="java.lang.String" value="Cerrar aplicaci&#xf3;n"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mitem_exitActionPerformed"/>

@@ -31,13 +31,13 @@ public class FormAdminEscuelas extends javax.swing.JInternalFrame {
         txt_escuela = new javax.swing.JTextField();
         btn_agregar = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        combo_sede = new javax.swing.JComboBox<>();
+        combo_sede = new javax.swing.JComboBox<String>();
         jScrollPane1 = new javax.swing.JScrollPane();
         tabla_escuelas = new javax.swing.JTable();
         jLabel2 = new javax.swing.JLabel();
 
         setClosable(true);
-        setTitle("Administracion de Escuelas Itca");
+        setTitle("Administración de Escuelas Itca");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("Nombre de escuela:");
