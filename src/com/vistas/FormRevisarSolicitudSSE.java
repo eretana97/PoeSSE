@@ -37,10 +37,10 @@ public class FormRevisarSolicitudSSE extends javax.swing.JInternalFrame {
         txt_observaciones = new javax.swing.JTextArea();
         btn_guardar = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
-        combo_estado = new javax.swing.JComboBox<String>();
+        combo_estado = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
 
-        setTitle("Revisión de Solicitudes SSE");
+        setTitle("Revision de Solicitudes SSE");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tabla_revision.setModel(new javax.swing.table.DefaultTableModel(
@@ -101,7 +101,7 @@ public class FormRevisarSolicitudSSE extends javax.swing.JInternalFrame {
         jLabel4.setText("Modificar estado de la solicitud:");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 310, -1, -1));
 
-        combo_estado.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        combo_estado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(combo_estado, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 330, 260, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/bg8.jpg"))); // NOI18N

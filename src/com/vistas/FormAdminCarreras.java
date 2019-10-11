@@ -31,7 +31,7 @@ public class FormAdminCarreras extends javax.swing.JInternalFrame {
         jLabel1 = new javax.swing.JLabel();
         txt_carrera = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        combo_escuela = new javax.swing.JComboBox<String>();
+        combo_escuela = new javax.swing.JComboBox<>();
         jScrollPane1 = new javax.swing.JScrollPane();
         tabla_carreras = new javax.swing.JTable();
         btn_agregar1 = new javax.swing.JButton();
@@ -42,10 +42,10 @@ public class FormAdminCarreras extends javax.swing.JInternalFrame {
         btn_agregar.setIconTextGap(10);
 
         setClosable(true);
-        setTitle("Administración de Carreras");
+        setTitle("Administracion de Carreras");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("Título de Carrera:");
+        jLabel1.setText("Titulo de Carrera:");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, -1, -1));
         getContentPane().add(txt_carrera, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, 180, -1));
 

@@ -46,19 +46,19 @@ public class FormControlSSE extends javax.swing.JInternalFrame {
         setTitle("Control de Horas SSE");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setText("Fecha:");
+        jLabel2.setText("Fecha de Servicio Social Realizado:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         spin_fecha.setModel(new javax.swing.SpinnerDateModel());
         getContentPane().add(spin_fecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 190, -1));
 
-        jLabel3.setText("Número de horas realizadas:");
+        jLabel3.setText("Numero de horas realizadas:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, -1, -1));
 
         spin_horas.setModel(new javax.swing.SpinnerNumberModel(1, 1, 24, 1));
         getContentPane().add(spin_horas, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 180, -1));
 
-        jLabel4.setText("Descripción de actividad realizada:");
+        jLabel4.setText("Descripcion de Actividad Realizada:");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, -1, -1));
 
         tabla_control.setModel(new javax.swing.table.DefaultTableModel(

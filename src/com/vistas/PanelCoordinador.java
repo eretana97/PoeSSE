@@ -35,7 +35,7 @@ public class PanelCoordinador extends javax.swing.JPanel {
         btn_horariocoor.setForeground(new java.awt.Color(255, 255, 255));
         btn_horariocoor.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         btn_horariocoor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/clock.png"))); // NOI18N
-        btn_horariocoor.setText("Horarios Atención");
+        btn_horariocoor.setText("Horarios Atencion");
         btn_horariocoor.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 51)));
         btn_horariocoor.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_horariocoor.setIconTextGap(5);

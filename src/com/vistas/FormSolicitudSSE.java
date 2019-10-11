@@ -28,13 +28,13 @@ public class FormSolicitudSSE extends javax.swing.JInternalFrame {
         jLabel4 = new javax.swing.JLabel();
         txt_apellidos = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
-        combo_sede_itca = new javax.swing.JComboBox<String>();
+        combo_sede_itca = new javax.swing.JComboBox<>();
         jLabel6 = new javax.swing.JLabel();
         txt_carnet = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
-        combo_escuela = new javax.swing.JComboBox<String>();
+        combo_escuela = new javax.swing.JComboBox<>();
         jLabel8 = new javax.swing.JLabel();
-        combo_carrera = new javax.swing.JComboBox<String>();
+        combo_carrera = new javax.swing.JComboBox<>();
         jLabel9 = new javax.swing.JLabel();
         txt_institucion = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
@@ -83,7 +83,7 @@ public class FormSolicitudSSE extends javax.swing.JInternalFrame {
 
         getContentPane().add(combo_carrera, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 190, 230, -1));
 
-        jLabel9.setText("Institución donde se realizará el SSE:");
+        jLabel9.setText("Institucion donde se realizara el SSE:");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
         getContentPane().add(txt_institucion, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 200, -1));
 
@@ -91,7 +91,7 @@ public class FormSolicitudSSE extends javax.swing.JInternalFrame {
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 220, -1, -1));
         getContentPane().add(txt_destinatario, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 240, 230, -1));
 
-        jLabel11.setText("Comentarios acerca de la solicitud:");
+        jLabel11.setText("Comentarios Acerca de la Solicitud:");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         txt_comentarios.setColumns(20);

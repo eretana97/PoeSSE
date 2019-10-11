@@ -37,7 +37,7 @@ public class FormAdminSedesItca extends javax.swing.JInternalFrame {
         setTitle("Sedes Itca Fepade");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("Sede:");
+        jLabel1.setText("Nueva Sede:");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
 
         txt_sede.setName(""); // NOI18N

@@ -75,7 +75,7 @@ public class PanelEstudiante extends javax.swing.JPanel {
         btn_finalizacionsse.setForeground(new java.awt.Color(255, 255, 255));
         btn_finalizacionsse.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         btn_finalizacionsse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/imagenes/finish.png"))); // NOI18N
-        btn_finalizacionsse.setText("Finalización SSE");
+        btn_finalizacionsse.setText("Finalizacion SSE");
         btn_finalizacionsse.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 51)));
         btn_finalizacionsse.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_finalizacionsse.setIconTextGap(10);
