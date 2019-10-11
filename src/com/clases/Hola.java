@@ -10,5 +10,7 @@ package com.clases;
  * @author Raisa
  */
 public class Hola {
-    
+    public Hola(){
+        System.out.print("");
+    }
 }
