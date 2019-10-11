@@ -26,6 +26,7 @@ public class PanelAdmin extends javax.swing.JPanel {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
+        bindingGroup = new org.jdesktop.beansbinding.BindingGroup();
 
         btn_horariocoor = new javax.swing.JLabel();
         btn_horariocoor1 = new javax.swing.JLabel();
@@ -41,9 +42,14 @@ public class PanelAdmin extends javax.swing.JPanel {
         btn_horariocoor.setText("Sedes");
         btn_horariocoor.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 51)));
         btn_horariocoor.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btn_horariocoor.setIconTextGap(5);
+        btn_horariocoor.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
+        btn_horariocoor.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         btn_horariocoor.setName("sede_itca"); // NOI18N
         btn_horariocoor.setOpaque(true);
+
+        org.jdesktop.beansbinding.Binding binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, btn_horariocoor, org.jdesktop.beansbinding.ELProperty.create("60"), btn_horariocoor, org.jdesktop.beansbinding.BeanProperty.create("iconTextGap"));
+        bindingGroup.addBinding(binding);
+
         btn_horariocoor.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_horariocoorMouseClicked(evt);
@@ -58,9 +64,13 @@ public class PanelAdmin extends javax.swing.JPanel {
         btn_horariocoor1.setText("Escuelas");
         btn_horariocoor1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 51)));
         btn_horariocoor1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btn_horariocoor1.setIconTextGap(5);
+        btn_horariocoor1.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         btn_horariocoor1.setName("escuelas"); // NOI18N
         btn_horariocoor1.setOpaque(true);
+
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, btn_horariocoor2, org.jdesktop.beansbinding.ELProperty.create("45"), btn_horariocoor1, org.jdesktop.beansbinding.BeanProperty.create("iconTextGap"));
+        bindingGroup.addBinding(binding);
+
         btn_horariocoor1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_horariocoor1MouseClicked(evt);
@@ -75,9 +85,13 @@ public class PanelAdmin extends javax.swing.JPanel {
         btn_horariocoor2.setText("Carreras");
         btn_horariocoor2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 51)));
         btn_horariocoor2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btn_horariocoor2.setIconTextGap(5);
+        btn_horariocoor2.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         btn_horariocoor2.setName("carreras"); // NOI18N
         btn_horariocoor2.setOpaque(true);
+
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, btn_horariocoor3, org.jdesktop.beansbinding.ELProperty.create("45"), btn_horariocoor2, org.jdesktop.beansbinding.BeanProperty.create("iconTextGap"));
+        bindingGroup.addBinding(binding);
+
         btn_horariocoor2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_horariocoor2MouseClicked(evt);
@@ -92,6 +106,7 @@ public class PanelAdmin extends javax.swing.JPanel {
         btn_horariocoor3.setText("Tipo de Carreras");
         btn_horariocoor3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 51)));
         btn_horariocoor3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn_horariocoor3.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         btn_horariocoor3.setIconTextGap(5);
         btn_horariocoor3.setName("tipos_carreras"); // NOI18N
         btn_horariocoor3.setOpaque(true);
@@ -109,9 +124,13 @@ public class PanelAdmin extends javax.swing.JPanel {
         btn_horariocoor4.setText("Usuarios");
         btn_horariocoor4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 51)));
         btn_horariocoor4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btn_horariocoor4.setIconTextGap(5);
+        btn_horariocoor4.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         btn_horariocoor4.setName("tipos_carreras"); // NOI18N
         btn_horariocoor4.setOpaque(true);
+
+        binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, btn_horariocoor4, org.jdesktop.beansbinding.ELProperty.create("40"), btn_horariocoor4, org.jdesktop.beansbinding.BeanProperty.create("iconTextGap"));
+        bindingGroup.addBinding(binding);
+
         btn_horariocoor4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_horariocoor4MouseClicked(evt);
@@ -149,6 +168,8 @@ public class PanelAdmin extends javax.swing.JPanel {
         );
 
         btn_horariocoor1.getAccessibleContext().setAccessibleName("escuelas");
+
+        bindingGroup.bind();
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_horariocoorMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_horariocoorMouseClicked
@@ -178,5 +199,6 @@ public class PanelAdmin extends javax.swing.JPanel {
     private javax.swing.JLabel btn_horariocoor2;
     private javax.swing.JLabel btn_horariocoor3;
     private javax.swing.JLabel btn_horariocoor4;
+    private org.jdesktop.beansbinding.BindingGroup bindingGroup;
     // End of variables declaration//GEN-END:variables
 }

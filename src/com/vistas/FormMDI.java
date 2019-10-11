@@ -273,12 +273,12 @@ public class FormMDI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void mitem_exitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mitem_exitActionPerformed
-        int x = JOptionPane.showConfirmDialog(jdesktop, "Desea terminar de usar la aplicacion?","Cerrar Aplicacion",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE);
+        int x = JOptionPane.showConfirmDialog(jdesktop, "Desea cerrar la aplicación?","Cerrar aplicación",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE);
         if(x == 0) System.exit(0);
     }//GEN-LAST:event_mitem_exitActionPerformed
 
     private void mitem_logoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mitem_logoutActionPerformed
-        int x = JOptionPane.showConfirmDialog(jdesktop, "Desea cerrar la session de su usuario?","Cerrar Sesion",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE);
+        int x = JOptionPane.showConfirmDialog(jdesktop, "Desea cerrar la sesión de su usuario?","Cerrar sesión",JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE);
         if(x == 0) {
             FormLogin login = new FormLogin();
             login.setVisible(true);
